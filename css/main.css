@@ -224,19 +224,137 @@ div{
 
 /*____________________________________________________________*/
 
+.txt-explore p:first-child{
+	margin: 0;
+	font-size: 12px;
+}
+
+.txt-explore h2{
+	margin-top: 0;
+}
+
+.explore-izq{
+	padding-left: 80px;
+}
+
+.explore-der{
+	padding-right: 80px;
+}
 
 .txt-explore{
-	width: 45%;
+	width: 35%;
 	display:inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.txt-explore p:last-child{
+	margin-bottom: 0;
 }
 
 .video-explore{
-	width: 50%;
+	width: 60%;
 	display:inline-block;
+	text-align: right;
 }
+
+iframe{
+	width: 100%;
+	padding: 0;
+	margin:0;
+}
+
+
 
 /*____________________________________________________________*/
 
-footer{
+#footer{
 	width: 100%;
+	display: block;/* Hace que el elemento tenga como naturaleza 
+	posicionarse en bloques, por lo que siempre empiezan en una 
+	nueva línea y ocupan todo el espacio disponible en la línea, 
+	aunque sus contenidos no ocupen todo el sitio. */
+}
+
+.footer{
+	width: 100%;
+	color:#fff;
+	background-color: #333447;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+/*iconos y copyright en línea*/
+.abajo li {
+	display: inline-block;
+}
+
+.iconos{
+	font-size: 20px;
+}
+
+.row{
+	margin-right: 50px;
+}
+
+.row{
+	display: inline-block;
+}
+
+
+.sto-footer{
+	display: inline-block;
+}
+
+
+.links-row a,.abajo  a{
+	text-decoration: none;
+}
+
+.links-row a:hover{
+	text-decoration: underline; 
+	color: #FF00BF;
+}
+
+a img{
+	width: 80%;
+	padding:20 30px;
+
+}
+
+.arriba	 ul{
+	list-style-type: none;
+}
+
+.final{
+	border-top: 1px solid #f3f3f5;
+	margin: 0;
+}
+
+.iconos{
+	margin-bottom:  25px;
+}
+
+.fa{
+	border: 1px solid #fff;
+	border-radius: 50%;
+	padding: 10px;
+	margin:0 15px;
+}
+
+.fa-facebook{
+border: 1px solid #fff;
+	border-radius: 50%;
+	padding-right: 14px;
+	padding-left: 14px;
+}
+
+.txt-footer{
+	width: 75%;
+	display: inline-block;
+
+}
+.sto-footer {
+	width: 20%;
+	display: inline-block;
 }
