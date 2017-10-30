@@ -106,7 +106,7 @@ header{
 	/*position: fixed;*/
 	clear: both;
 	overflow: hidden;
-	padding-bottom: 250px;
+	padding-bottom: 160px;
 }
 
 /* 
@@ -198,6 +198,12 @@ div{
 	font-size:10px;
 }
 
+.home h1{
+	font-size: 30px;
+	padding: 0;
+	margin:0;
+}
+
 
 /*____________________________________________________________*/
 
@@ -241,15 +247,25 @@ div{
 	padding-right: 80px;
 }
 
-.txt-explore{
+.izq{
 	width: 35%;
-	display:inline-block;
+	float:left;
 	margin-left: 20px;
 	margin-right: 20px;
+	align-items: center;
+	padding-top: 60px;
 }
 
+.der{
+	width: 35%;
+	float:right;
+	margin-left: 20px;
+	margin-right: 20px;
+	align-items: center;
+}
 .txt-explore p:last-child{
 	margin-bottom: 0;
+	padding-bottom: 50px;
 }
 
 .video-explore{
@@ -294,13 +310,9 @@ iframe{
 }
 
 .row{
-	margin-right: 50px;
-}
-
-.row{
+	margin-right: 70px;
 	display: inline-block;
 }
-
 
 .sto-footer{
 	display: inline-block;
@@ -316,10 +328,13 @@ iframe{
 	color: #FF00BF;
 }
 
+.links-row li{
+	padding-bottom: 20px;
+}
+
 a img{
 	width: 80%;
-	padding:20 30px;
-
+	/*padding:20 30px;*/
 }
 
 .arriba	 ul{
@@ -343,7 +358,7 @@ a img{
 }
 
 .fa-facebook{
-border: 1px solid #fff;
+	border: 1px solid #fff;
 	border-radius: 50%;
 	padding-right: 14px;
 	padding-left: 14px;
@@ -354,7 +369,13 @@ border: 1px solid #fff;
 	display: inline-block;
 
 }
+
 .sto-footer {
 	width: 20%;
 	display: inline-block;
 }
+.title-row{
+	text-align:center;
+	font-size: 22px;
+}
+
